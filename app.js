@@ -1,8 +1,13 @@
 let form = document.querySelector('form')
 
-let credentials = {
-	mail : "guru@itdunya.com",
-	pass : 'qwerty123'
+let hamza = {
+	mail : "hminhas1999@gmail.com",
+	pass : 'hamza12'
+}
+
+let zubair = {
+	mail : "asadjani202@gmail.com",
+	pass : "asad12"
 }
 
 let userInput = {
@@ -17,7 +22,20 @@ form.addEventListener('submit', e => {
 
 	console.log(userInput.mail, userInput.pass)
 
-	if(userInput.mail == credentials.mail && userInput.pass == credentials.pass){
-		window.open('Home.html','_self')
-	} else alert('invalid credentials')
+	if(userInput.mail == hamza.mail || userInput.mail == zubair.mail){
+		switch(userInput.mail){
+			case hamza.mail:
+				if(userInput.pass == hamza.pass)
+					window.open('Home.html','_self')
+					 else alert('invalid credentials')
+			break
+			 case zubair.mail:
+			 	if(userInput.pass == zubair.pass)
+			 		window.opne('Home.html', '_self')
+			 	else alert('invalid credentials')
+			break
+		default:
+			alert('invalid credentials')
+		}
+	}
 })
