@@ -1,0 +1,293 @@
+*{
+	margin: 0px;
+	padding: auto;
+	font-family: century Gothic;
+
+}
+
+header{
+	background-attachment: fixed;
+	background-image: url(../images/1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 1000px;
+
+}
+.main{
+	background-attachment: fixed;
+	background-image: url(../images/bg1.jpg);
+	height: 750px;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float:right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li {
+	display: inline-block;
+	
+}
+ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+
+}
+ul li a:hover{
+	background-color: #fff;
+	color:#000;
+}
+
+.imm{
+margin-right: 500px;
+}
+.a15 .imm{
+	float: right;
+}
+.logo{
+	margin: 0px;
+	padding: 17px;
+	float: left;
+	width: 150px;
+	height: auto;
+}
+.slider{
+overflow: hidden;
+height: 400%;
+width: 300%;
+}
+.slider figure div{
+	float: left;
+	width:20%;
+
+}
+.slider figure img{
+	width: 100%;
+	float: left;
+} 
+.slider figure{
+	position: relative;
+	width: 500%;
+
+}
+
+.a2{
+	font-size: 2rem;
+	padding: 80px 80px 80px;
+	margin:0px;
+	color:white ;
+	text-align: center;
+	
+}
+#a3{
+	padding: 100px 100px 100px;
+	height:10px;
+	width:50px;
+
+}
+
+#button1 {
+	padding: 1rem;
+  background-color: #f4a742; /* Green */
+  border: none;
+  color: white;
+  padding: 13px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 12px;
+  cursor: pointer;
+  opacity: 0.8;
+  
+}
+footer
+{	
+	margin:0.1rem 0.1rem 0.1rem 0.1rem;
+	float: left;
+	padding: 3.5rem 2rem 2rem;
+	height: 5rem;
+	width: 89.6rem;
+	color:white;
+	background-color: #f4a742;
+
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.6;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 50%;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+#a5{
+	float: right;
+	margin-right: 10rem;
+
+}
+.rounded-circle{
+	border-radius: 15px 50px 30px 5px;
+}
+.Services{
+		
+		color: white;
+		
+		text-decoration: underline;
+		height: 1550px;
+		width: 1349px;
+
+}
+#a6{
+	text-align: center;
+	font-size: 3rem;
+}
+.services_list{
+	margin-left: 3rem;
+	color: white;
+	float: left;
+	color: white;
+
+}
+#a7{
+	color: #f4a742;
+	font-size: 3rem;
+	text-align: center;
+	text-decoration: underline;
+}
+#a8{
+	float: left;
+	height: 500px;
+	width: 450px;
+	margin: 1rem 1rem 1rem;
+}
+#a9{
+	padding-top: 10rem 10rem 10rem;
+	margin: 1rem 1rem 1rem;
+	font-size: 1.78rem;
+	margin-bottom: 1rem;
+	color: white;
+
+
+}
+.Services_list .a6{
+	color: white;
+}
+aside{
+	background-image: url(../images/bg1.jpg);
+	height: 820px;
+	width: 1499px;
+}
+.A10{
+color: white;
+margin: 3.5rem;
+}
+#a11{
+	font-size: 2rem;
+text-align: center;
+color: white;
+text-decoration: underline;
+}
+header{
+
+}
+.gallery{
+	background-image: url(../images/sky.jpg);
+	background-size: cover;
+	
+
+	height: auto;
+	width: auto;
+	background-size: cover;
+}
+#a13{
+color: white;
+margin: 1rem 1rem 1rem;
+float: left;
+padding: 5px;
+display: inline-block;
+border: 1px solid white;
+}
+#a14{
+	text-align: center;
+	text-decoration: underline;
+	color: white;
+}
+.a15 img{
+	margin:0.4rem 0.4rem 0.4rem;
+	border-radius: 20px;
+}
+.A15{
+	border: 1px solid orange;
+	height: 20rem;
+	width: 83.2rem;
+	font-size:2rem;
+	background-color: skyblue;
+	margin:0.8rem 0.8rem 0.8rem;
+	
+}
+.a16{
+	text-align: left;
+	height: 300px;
+	width: 400px;
+}
+.A15 img{
+	margin-top: 2rem;
+}
+.A15 h1{
+	float: right;
+	border: 1px solid orange;
+	text-align: right;
+	
+	padding: 20px;
+}
+#a19{
+	font-size: 4rem;
+	text-align: center;
+	color: orange;
+	text-decoration: underline;
+
+}
+#a20{
+	margin-left: 2rem;
+	color: orange;
+	text-align: center;
+	text-decoration: underline;
+	
+}
+.A25{
+	background-attachment: fixed;
+	background-image: url(../images/bg1.jpg);
+	height: 850px;
+	background-size: cover;
+	background-position: center;
+}
