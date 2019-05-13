@@ -22,20 +22,12 @@ form.addEventListener('submit', e => {
 
 	console.log(userInput.mail, userInput.pass)
 
-	if(userInput.mail == hamza.mail || userInput.mail == zubair.mail){
-		switch(userInput.mail){
-			case hamza.mail:
-				if(userInput.pass == hamza.pass)
-					window.open('Home.html','_self')
-					 else alert('invalid credentials')
-			break
-			 case zubair.mail:
-			 	if(userInput.pass == zubair.pass)
-			 		window.opne('Home.html', '_self')
-			 	else alert('invalid credentials')
-			break
-		default:
-			alert('invalid credentials')
-		}
-	}
+	if(userInput.mail == hamza.mail){
+		if(userInput.pass == hamza.pass){
+			window.open('Home.html',"_self")
+		} else alert('invalid Password')
+	} else if(userInput.mail == zubair.mail){
+		if(userInput.pass == zubair.pass)
+			window.open('Home.html','_self')
+	} else alert('invalid credentials')
 })
