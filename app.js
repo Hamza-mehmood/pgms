@@ -1,14 +1,15 @@
 let form = document.querySelector('form')
 
-let hamza = {
-	mail : "hminhas1999@gmail.com",
-	pass : 'hamza12'
+class Admin{
+	constructor(mail, pass){
+		this.mail = mail
+		this.pass = pass
+	}
 }
 
-let zubair = {
-	mail : "asadjani202@gmail.com",
-	pass : "asad12"
-}
+let hamza = new Admin('hminhas1999@gmail.com','hamza12')
+let zubair = new Admin('asadjani202@gmail.com','asad12')
+
 
 let userInput = {
 	mail : "",
